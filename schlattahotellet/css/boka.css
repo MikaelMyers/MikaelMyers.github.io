@@ -1,0 +1,57 @@
+header{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.5032606792717087) 0%, rgba(0,0,0,0.486453956582633) 35%, rgba(0,0,0,0.34079569327731096) 100%), url(../img/philipp-deus-WqlGcg90MV0-unsplash.jpg);
+}
+
+.bookingform{
+    background-size: cover;
+    margin-top: 2rem;
+   
+    
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    color: var(--text-color);
+    text-shadow: 0.3125rem 0.125rem 0.125rem #565556;
+    
+  }
+  
+h3 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.4rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #0077be;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #005ba4;
+  }
+  
