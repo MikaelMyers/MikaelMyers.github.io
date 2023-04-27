@@ -18,6 +18,8 @@ header{
     background-position: center;
 }
 
+
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -129,6 +131,7 @@ background-color: var(--main-color);
     flex-direction: column;
     font-size: 1.5rem;
     text-shadow: 0.3125rem 0.125rem 0.125rem #313131;
+    position: center;
     
 }
 /* css kod för "Aktuellt" */
@@ -782,19 +785,69 @@ footer {
 .footer-links > button > a{
     color: var(--main-color);
 }
+/* hamburgemeny */
+.hamburger{
+    display: none;
+    cursor: pointer;
+    
+}
+.bar{
+    height:2px;
+    width: 27px;
+    background: #EEE9D8;
+    margin: 5px 0;
+    opacity: 0.8;
+    transition: alll 0.3s ease-in-out;
+}
+.nav--open{
+    transform: translate(0) !important;
+    
+}
+.hamburger--open .bar:nth-child(1){
+    transform: translateY(7px) rotate(45deg);
+
+}
+.hamburger--open .bar:nth-child(2){
+    opacity: 0;
+
+}
+.hamburger--open .bar:nth-child(3){
+    transform: translateY(-7px) rotate(-45deg);
+
+}
+
 
 /* mobilanpassning */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1120px){
+    
     nav ul{
-        display: none;
+        position: fixed;
+        top: 6.2rem; 
+        left: 0;
+        background-color: rgba(0,0,0,0.7);
+        width: 100%;
+        padding: 5px 0 15px;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 6px;
+        font-size: 14px;
+        transform: translateX(-100%);
+    
     }
-
+    
+    .hamburger{
+        display: block;
+        
+    }
+    
+ 
     .grid-container{
         grid-template-areas: 
         "a a"
         "b c"
         "d e";
-        width: 850px;
+        width: 100%;
+        
     }
 }
 

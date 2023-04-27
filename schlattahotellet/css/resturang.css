@@ -11,3 +11,7 @@ background-image: linear-gradient(90deg, rgba(0,0,0,0.5032606792717087) 0%, rgba
     color: var(--text-color);
     text-shadow: 0.3125rem 0.125rem 0.125rem #565556;
 }
+.active{
+    background-color: var(--text-color);
+    color: var(--main-color);
+}

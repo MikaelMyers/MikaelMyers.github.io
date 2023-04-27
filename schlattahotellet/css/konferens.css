@@ -11,3 +11,7 @@ header{
     color: var(--text-color);
     text-shadow: 0.3125rem 0.125rem 0.125rem #565556;
 }
+.active{
+    background-color: var(--text-color);
+    color: var(--main-color);
+}
