@@ -15,3 +15,9 @@ header{
     background-color: var(--text-color);
     color: var(--main-color);
 }
+@media screen and (max-width: 1120px){
+    .konferens h1{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+}

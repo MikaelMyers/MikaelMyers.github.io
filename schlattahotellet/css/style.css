@@ -827,19 +827,24 @@ footer {
         left: 0;
         background-color: rgba(0,0,0,0.7);
         width: 100%;
-        padding: 5px 0 15px;
+        padding: 5px 0 5px;
         flex-direction: column;
         align-items: center;
-        row-gap: 6px;
-        font-size: 14px;
+        row-gap: 2px;
+        font-size: 10px;
         transform: translateX(-100%);
+        
     
+    }
+    .hamburger-list li{
+        height: 6.4rem;
     }
     
     .hamburger{
         display: block;
-        
+            
     }
+   
     
  
     .grid-container{
@@ -856,6 +861,7 @@ footer {
     .hero h1{
         text-align: center;
     }
+   
     .aktuellt-container {
         flex-direction: column;
         align-items: center;
@@ -868,10 +874,18 @@ footer {
         text-align: center;
         
     }
-    .aktuellt-container > h3{
+    .aktuellt-container a  {
+        display: block;
         margin: 0 auto;
         text-align: center;
+        margin-left: 0;
     }
+
+    .item-1 h3 a, .item-3 div a, .item-3 h4 a {
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    
         
     
     .card-container{
@@ -884,7 +898,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    .row h3, p{
+    .row  > h3, p{
         text-align: center;
         
 
