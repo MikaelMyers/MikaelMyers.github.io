@@ -11,6 +11,9 @@ header{
     color: var(--text-color);
     text-shadow: 0.3125rem 0.125rem 0.125rem #565556;
 }
+.konferens h1{
+    font-size: 3.5rem;
+}
 .active{
     background-color: var(--text-color);
     color: var(--main-color);
@@ -18,6 +21,6 @@ header{
 @media screen and (max-width: 1120px){
     .konferens h1{
         text-align: center;
-        font-size: 3.5rem;
+        
     }
 }
